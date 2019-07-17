@@ -1,0 +1,12 @@
+li{
+    color:red;
+}
+:root {
+    --fix: {
+        color:red;
+    }
+}
+
+li {
+    @apply --fix;
+}
